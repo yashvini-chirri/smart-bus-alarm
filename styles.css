@@ -1,0 +1,136 @@
+/* Body */
+body {
+    background: #000000; /* black background */
+    color: #ffffff; /* default text color white */
+}
+
+/* Hero Section */
+.hero {
+    background: linear-gradient(135deg, #004d00, #009900); /* dark green gradient */
+    color: #ffffff;
+}
+
+.hero h1 {
+    color: #00ff00; /* bright green */
+    text-shadow: 2px 2px 6px rgba(0, 128, 0, 0.8); /* green shadow */
+}
+
+.hero p {
+    color: #ccffcc; /* light green */
+    text-shadow: 1px 1px 4px rgba(0, 128, 0, 0.6);
+}
+
+.primary-btn {
+    background-color: #00ff00; /* bright green */
+    color: #000000; /* black text */
+    box-shadow: 0 6px 20px rgba(0, 255, 0, 0.5);
+}
+
+.primary-btn:hover {
+    background-color: #00cc00;
+    box-shadow: 0 8px 25px rgba(0, 204, 0, 0.7);
+}
+
+.secondary-btn {
+    border: 2px solid #00ff00;
+    color: #00ff00;
+    background: transparent;
+}
+
+.secondary-btn:hover {
+    background-color: #00ff00;
+    color: #000000;
+    box-shadow: 0 8px 25px rgba(0, 255, 0, 0.4);
+}
+
+/* Features Section */
+.features {
+    background: #111111; /* very dark background */
+    color: #ccffcc; /* soft green */
+}
+
+.features h2 {
+    color: #00ff00;
+}
+
+.feature-card {
+    background: #222222; /* dark card background */
+    color: #ddffdd;
+    border: 1px solid #00cc00;
+    box-shadow: 0 10px 30px rgba(0, 255, 0, 0.15);
+}
+
+.feature-card:hover {
+    box-shadow: 0 20px 40px rgba(0, 255, 0, 0.3);
+}
+
+.feature-card h3 {
+    color: #00ff00;
+}
+
+.feature-card p {
+    color: #aaffaa;
+}
+
+/* Creative Section */
+.creative-section {
+    background: linear-gradient(to bottom, #003300, #006600);
+}
+
+/* Fun Finale */
+.fun-finale {
+    background: linear-gradient(135deg, #003300, #006600);
+    color: #ccffcc;
+}
+
+.fun-finale h2 {
+    color: #00ff00;
+}
+
+.fun-finale p {
+    color: #aaffaa;
+}
+
+.fun-btn {
+    background: linear-gradient(135deg, #00ff00, #009900);
+    color: #000000;
+}
+
+.fun-btn:hover {
+    background: linear-gradient(135deg, #009900, #00ff00);
+    color: #000000;
+}
+
+/* Footer */
+.footer {
+    background: #000000;
+    color: #ccffcc;
+}
+
+.footer h2, .footer h3 {
+    color: #00ff00;
+}
+
+.footer p, .footer a {
+    color: #aaffaa;
+}
+
+.footer a:hover {
+    color: #00ff00;
+}
+
+/* Other text and smaller details */
+* {
+    color: inherit;
+}
+
+/* Buttons cursor and focus remain */
+.primary-btn, .secondary-btn, .fun-btn {
+    cursor: pointer;
+}
+
+.primary-btn:focus, .secondary-btn:focus, .fun-btn:focus, 
+.feature-card:focus, .footer a:focus {
+    outline: 2px solid #00ff00;
+    outline-offset: 2px;
+}
